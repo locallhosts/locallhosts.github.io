@@ -1,0 +1,82 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="description" content="Isaiah Oboh — Security Engineer, Application Security, Detection Engineering and Security Automation.">
+  <meta name="author" content="Isaiah Oboh">
+  <title>Isaiah Oboh | Security Engineer</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&family=IBM+Plex+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+<header class="topbar">
+  <div class="wrap nav">
+    <a class="brand" href="#top">IO<span>.</span></a>
+    <nav aria-label="Primary navigation">
+      <a href="#experience">Experience</a><a href="#work">Selected work</a><a href="#education">Education</a><a href="#certifications">Certifications</a><a href="#contact">Contact</a>
+    </nav>
+    <a class="button button-small" href="https://github.com/locallhosts" target="_blank" rel="noreferrer">GitHub</a>
+  </div>
+</header>
+<main id="top">
+<section class="hero wrap">
+  <div class="hero-copy">
+    <p class="eyebrow">SECURITY ENGINEER · LAGOS, NIGERIA</p>
+    <h1>Isaiah Oboh</h1>
+    <h2>Security engineering, detection, application security and offensive research.</h2>
+    <p class="lead">I build security systems that can be inspected, tested and operated — from Linux and eBPF telemetry to distributed SOAR, detection validation, Zero Trust access control and security automation.</p>
+    <div class="actions"><a class="button" href="#work">View selected work</a><a class="text-link" href="mailto:locallhosts@protonmail.com">locallhosts@protonmail.com ↗</a></div>
+  </div>
+  <aside class="hero-meta">
+    <div><span>Location</span><strong>Lagos, Nigeria</strong></div><div><span>Phone</span><strong>+234 704 328 9162</strong></div><div><span>Focus</span><strong>Security Engineering</strong></div><div><span>Availability</span><strong>Open to security roles</strong></div>
+  </aside>
+</section>
+<section class="section wrap" id="profile">
+  <div class="section-label">01 / PROFILE</div><div class="profile-grid"><div><h3>Engineering-first security.</h3></div><div>
+    <p>Security-focused engineer with hands-on work spanning security tooling, application security, detection engineering, incident response, offensive security, identity, cloud security and automation.</p>
+    <p>Since 2021, I have worked independently across security consulting and engineering engagements, while continuing to build substantial security platforms and research projects in public repositories.</p>
+    <p class="muted">My approach is straightforward: understand the system, build the control, test it under realistic conditions, break assumptions, and document the result.</p>
+  </div></div>
+</section>
+<section class="section wrap" id="experience">
+  <div class="section-label">02 / EXPERIENCE</div><article class="role"><div class="role-head"><div><h3>Independent Cybersecurity Consultant &amp; Security Engineer</h3><p class="company">Independent practice</p></div><div class="date">2021 — Present<br><span>Gauteng, South Africa</span></div></div>
+  <ul class="clean-list"><li>Designed and implemented security operations capabilities including SOC workflows, monitoring, detection and response processes.</li><li>Supported red-team and offensive-security engagements, translating findings into practical remediation and defensive controls.</li><li>Contributed to ransomware-response work and incident-response activities, with emphasis on containment, investigation and recovery.</li><li>Worked on SOC 2 readiness and security-control improvements, connecting technical implementation with operational requirements.</li><li>Built Python and SOAR automation to reduce repetitive analyst work, accelerate investigation and improve security workflow consistency.</li></ul>
+</article></section>
+<section class="section wrap" id="work">
+  <div class="section-label">03 / SELECTED ENGINEERING WORK</div><div class="projects">
+    <article class="project featured"><div class="project-media"><div class="project-gallery">
+      <img src="https://raw.githubusercontent.com/locallhosts/Resync/main/docs/videos/live-demo.gif" alt="Resync live security automation demo" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/Resync/main/docs/screenshots/architecture.jpeg" alt="Resync architecture diagram" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/Resync/main/docs/screenshots/demo-case.png" alt="Resync case view" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/Resync/main/docs/screenshots/case-alert.png" alt="Resync alert timeline" loading="lazy">
+    </div></div><div class="project-body"><div class="project-kicker">01 · DISTRIBUTED SECURITY AUTOMATION</div><h3>Resync</h3><p>Distributed SOAR platform demonstrating event-driven security automation, event sourcing and CQRS. Alerts move through Kafka, a Java workflow engine and isolated Go workers before being projected into a React security console.</p><div class="tags">Go · Java · React · TypeScript · Kafka · PostgreSQL · Redis · Docker</div><a href="https://github.com/locallhosts/Resync" target="_blank" rel="noreferrer">Repository ↗</a></div></article>
+    <article class="project"><div class="project-media"><div class="project-gallery single"><img src="https://raw.githubusercontent.com/locallhosts/Wraith/main/docs/images/architecture.png" alt="Wraith detection engineering architecture" loading="lazy"></div></div><div class="project-body"><div class="project-kicker">02 · DETECTION ENGINEERING</div><h3>Wraith</h3><p>Detection engineering and validation platform combining a Go control plane, Python analysis engine and TypeScript operations interface. The pipeline analyzes, translates, simulates, mutates and validates detections before deployment.</p><div class="tags">Go · Python · Sigma · ATT&amp;CK · Elasticsearch · Neo4j · PostgreSQL · Next.js</div><a href="https://github.com/locallhosts/Wraith" target="_blank" rel="noreferrer">Repository ↗</a></div></article>
+    <article class="project"><div class="project-media"><div class="project-gallery">
+      <img src="https://raw.githubusercontent.com/locallhosts/ebpf-edr/master/docs/assets/live-demo.gif" alt="eBPF EDR live terminal demo" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/ebpf-edr/master/docs/assets/live-demo_dashbaord.gif" alt="eBPF EDR dashboard demo" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/ebpf-edr/master/docs/images/architecture.png" alt="eBPF EDR project architecture" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/ebpf-edr/master/docs/assets/Capture-Terminal.PNG" alt="eBPF EDR terminal capture" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/ebpf-edr/master/docs/assets/Capture-Web.PNG" alt="eBPF EDR web interface capture" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/ebpf-edr/master/docs/assets/dashboard-critical.png" alt="eBPF EDR critical dashboard state" loading="lazy">
+    </div></div><div class="project-body"><div class="project-kicker">03 · LINUX SECURITY</div><h3>eBPF EDR</h3><p>Linux endpoint detection research using eBPF to observe kernel-level activity and feed behavioral security signals into a Go-based security pipeline and dashboard.</p><div class="tags">eBPF · Linux · Go · Kernel telemetry · EDR</div><a href="https://github.com/locallhosts/ebpf-edr" target="_blank" rel="noreferrer">Repository ↗</a></div></article>
+    <article class="project"><div class="project-media"><div class="project-gallery single"><img src="https://raw.githubusercontent.com/locallhosts/stream-siem/main/docs/images/flink-ui.png" alt="Stream SIEM processing interface" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/stream-siem/main/docs/images/smoke-test-results.png" alt="Stream SIEM smoke test results" loading="lazy"></div></div><div class="project-body"><div class="project-kicker">04 · SECURITY TELEMETRY</div><h3>Stream SIEM</h3><p>Real-time security telemetry and detection pipeline built around streaming ingestion, enrichment, behavioral detection and analytical storage.</p><div class="tags">Go · Python · Kafka · Apache Flink · ClickHouse · SIEM</div><a href="https://github.com/locallhosts/stream-siem" target="_blank" rel="noreferrer">Repository ↗</a></div></article>
+    <article class="project wide"><div class="project-media"><div class="project-gallery">
+      <img src="https://raw.githubusercontent.com/locallhosts/Zero-Trust-IAP/main/docs/demo/videos/01-zero-trust-request-flow.gif" alt="Zero Trust request flow demo" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/Zero-Trust-IAP/main/docs/demo/videos/02-adaptive-risk-and-quarantine.gif" alt="Adaptive risk and quarantine demo" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/Zero-Trust-IAP/main/docs/demo/videos/03-security-lab-policy-replay.gif" alt="Security lab policy replay demo" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/Zero-Trust-IAP/main/docs/demo/screenshots/01-admin-dashboard.png" alt="Zero Trust IAP administration console" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/Zero-Trust-IAP/main/docs/demo/screenshots/02-live-mtls-deny.png" alt="Zero Trust live mTLS deny" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/Zero-Trust-IAP/main/docs/demo/screenshots/03-adaptive-risk-quarantine.png" alt="Zero Trust adaptive risk and quarantine" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/Zero-Trust-IAP/main/docs/demo/screenshots/04-security-lab-allow.png" alt="Zero Trust security lab allow decision" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/Zero-Trust-IAP/main/docs/demo/screenshots/05-access-logs.png" alt="Zero Trust access logs" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/Zero-Trust-IAP/main/docs/demo/screenshots/06-certificate-rotation.png" alt="Zero Trust certificate rotation" loading="lazy"><img src="https://raw.githubusercontent.com/locallhosts/Zero-Trust-IAP/main/docs/demo/screenshots/07-protected-dashboard.png" alt="Protected dashboard behind Zero Trust IAP" loading="lazy">
+    </div></div><div class="project-body"><div class="project-kicker">05 · IDENTITY &amp; ZERO TRUST</div><h3>Zero-Trust Identity-Aware Proxy</h3><p>Go-based application-layer access control that authenticates workload identity, validates device posture, evaluates policy and adaptive risk, and authorizes requests before they reach protected services. Includes mTLS, SPIFFE-style identity, Vault-backed PKI, certificate rotation, audit logging and an administrative security console.</p><div class="tags">Go · mTLS · SPIFFE/SPIRE · Vault · PKI · Identity · Policy · Risk</div><a href="https://github.com/locallhosts/Zero-Trust-IAP" target="_blank" rel="noreferrer">Repository ↗</a></div></article>
+  </div>
+</section>
+<section class="section wrap" id="additional"><div class="section-label">04 / ADDITIONAL WORK</div><div class="additional-grid">
+  <a href="https://github.com/locallhosts/Capstone-Project-II" target="_blank" rel="noreferrer"><strong>Capstone Project II</strong><span>Academic software project</span></a><a href="https://github.com/locallhosts/Africashopping" target="_blank" rel="noreferrer"><strong>Africa Shopping</strong><span>Web application engineering</span></a><a href="https://github.com/locallhosts/RealProject" target="_blank" rel="noreferrer"><strong>RealProject</strong><span>Application development</span></a><a href="https://github.com/locallhosts/inventory" target="_blank" rel="noreferrer"><strong>Inventory</strong><span>Application development</span></a>
+</div></section>
+<section class="section wrap" id="certifications"><div class="section-label">05 / CERTIFICATIONS</div><div class="cert-grid">
+  <div><strong>OSCP</strong><span>Offensive Security Certified Professional</span></div><div><strong>CCSP</strong><span>Certified Cloud Security Professional</span></div><div><strong>CASP+</strong><span>CompTIA Advanced Security Practitioner</span></div><div><strong>Security+</strong><span>CompTIA Security+</span></div><div><strong>CySA+</strong><span>CompTIA Cybersecurity Analyst</span></div><div><strong>PenTest+</strong><span>CompTIA PenTest+</span></div><div><strong>Network+</strong><span>CompTIA Network+</span></div><div><strong>A+</strong><span>CompTIA A+</span></div><div><strong>Linux Administrator</strong><span>Linux systems administration</span></div><div><strong>Operating System Administrator</strong><span>Operating system administration</span></div>
+</div></section>
+<section class="section wrap" id="expertise"><div class="section-label">06 / TECHNICAL SCOPE</div><div class="skills">
+  <div><h4>Security</h4><p>Application Security · Detection Engineering · EDR · SIEM · SOAR · Incident Response · Offensive Security · Vulnerability Research · Exploit Development · Threat Detection · OWASP · MITRE ATT&amp;CK · Sigma · YARA · Burp Suite · Nmap · Metasploit · Wireshark</p></div>
+  <div><h4>Engineering</h4><p>Go · Python · C · C++ · Rust · Java · JavaScript · TypeScript · Bash · SQL · React · Next.js · REST APIs · Event Sourcing · CQRS</p></div>
+  <div><h4>Infrastructure</h4><p>Linux · Docker · Kubernetes · Terraform · AWS · Azure · GCP · Vault · GitHub Actions · Nginx · Kafka · Apache Flink · ClickHouse · PostgreSQL · Redis</p></div>
+  <div><h4>Identity &amp; Cloud Security</h4><p>Zero Trust · SPIFFE/SPIRE · mTLS · PKI · IAM · Device Posture · Policy Enforcement · Adaptive Risk · CI/CD Security · DevSecOps</p></div>
+</div></section>
+<section class="section wrap" id="education"><div class="section-label">07 / EDUCATION</div><div class="education">
+  <div class="edu-item"><div class="edu-year">2024</div><div><h3>Higher Certificate in Cybersecurity</h3><p>Eduvos · Gauteng, South Africa</p></div></div><div class="edu-item"><div class="edu-year">2023</div><div><h3>Data Science Bootcamp</h3><p>HyperionDev · Gauteng, South Africa</p></div></div><div class="edu-item"><div class="edu-year">2023</div><div><h3>Software Engineering Bootcamp</h3><p>HyperionDev · Gauteng, South Africa</p></div></div><div class="edu-item"><div class="edu-year">2019–2020</div><div><h3>Full-Stack Java Developer</h3><p>HyperionDev · Lagos, Nigeria</p></div></div><div class="edu-item"><div class="edu-year">2020</div><div><h3>Web Development Program</h3><p>National Institute of Information Technology (NIIT) · Lagos, Nigeria</p></div></div><div class="edu-item"><div class="edu-year">2016</div><div><h3>Network &amp; Security Program</h3><p>New Horizons · Lagos, Nigeria</p></div></div>
+</div></section>
+<section class="section wrap" id="contact"><div class="contact"><p class="eyebrow">LET'S TALK</p><h2>Security problems worth engineering around.</h2><p>For security engineering, application security, detection engineering, offensive security or security automation opportunities, reach me directly.</p><div class="contact-links"><a href="mailto:locallhosts@protonmail.com">locallhosts@protonmail.com</a><a href="tel:+2347043289162">+234 704 328 9162</a><a href="https://github.com/locallhosts" target="_blank" rel="noreferrer">github.com/locallhosts</a><a href="https://za.linkedin.com/in/isaiah-o-804aaa210" target="_blank" rel="noreferrer">LinkedIn</a></div></div></section>
+</main>
+<footer class="footer wrap"><span>Isaiah Oboh</span><span>Security Engineering · Lagos, Nigeria</span><span>© 2026</span></footer>
+<script>document.querySelectorAll('img').forEach(img=>img.addEventListener('error',()=>img.closest('.project-media').classList.add('image-missing')));</script>
+</body></html>
